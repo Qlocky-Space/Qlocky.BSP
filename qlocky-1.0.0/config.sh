@@ -14,9 +14,9 @@ IMX_RELEASE="qlocky-1.0.0"
 
 YOCTO_DIR="${DOCKER_WORKDIR}/${IMX_RELEASE}-build"
 
-MACHINE="imx8mm-lpddr4-evk"
+MACHINE="imx8mm-qlocky"
 DISTRO="fsl-imx-xwayland"
-IMAGES="imx-image-core"
+IMAGES="qlocky-image"
 
 REMOTE="https://github.com/Qlocky-Space/Qlocky.BSP_meta-qlocky"
 BRANCH="scarthgap"
