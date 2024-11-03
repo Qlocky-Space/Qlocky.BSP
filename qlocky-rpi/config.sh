@@ -16,7 +16,7 @@ YOCTO_DIR="${DOCKER_WORKDIR}/${IMX_RELEASE}-build"
 
 MACHINE="raspberrypi4-64"
 DISTRO="poky"
-IMAGES="rpi-image"
+IMAGES="core-image-minimal"
 
 REMOTE="https://github.com/Qlocky-Space/Qlocky.BSP_meta-rpi"
 BRANCH="feature/initial"
