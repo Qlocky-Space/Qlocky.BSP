@@ -18,6 +18,6 @@ MACHINE="raspberrypi4-64"
 DISTRO="poky"
 IMAGES="rpi-image"
 
-REMOTE="https://github.com/Qlocky-Space/Qlocky.BSP_meta-qlocky"
-BRANCH="feature/rpi"
+REMOTE="https://github.com/Qlocky-Space/Qlocky.BSP_meta-rpi"
+BRANCH="feature/initial"
 MANIFEST=${IMX_RELEASE}".xml"
